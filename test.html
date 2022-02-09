@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td {
+            border: 1px solid black;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <table >
+           <tr>
+               <td>Pizza Shop 2.0</td>
+            </tr> 
+           <tr>
+               <td>Surname</td>
+               <td><input name="name" /></td>
+            </tr>
+           <tr>
+               <td>Pizza Topping</td>
+               <td>
+                   <div><input name="topping" type="radio" /><label>Supreme</label></div>
+                   <div><input  name="topping" type="radio" /><label>Vegeterian</label></div>
+                   <div><input  name="topping" type="radio" /><label>Hawaiian</label></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sause</td>
+                <td>
+                    <select>
+                        <option>Tomato</option>
+                        <option>Paper</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <label>Extra Cheese</label><input  name="Cheese" type="checkbox" />
+                    <label>Glutem Fre</label><input  name="Glutem" type="checkbox" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Delivery instructions</span>
+                    <textarea cols="20" row="15"></textarea>
+                </td>
+            </tr>
+            <tr><td><button type="submit">Send my order</button></td></tr>
+        </table>
+        
+        
+        
+        
+    </form>
+</body>
+</html>
